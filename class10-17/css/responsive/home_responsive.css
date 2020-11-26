@@ -1,0 +1,163 @@
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   By:youthenlight.com
+   ========================================================================== */
+
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {
+	
+}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+	
+}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+	.single-product-item {
+	    height: 270px;
+		margin-bottom: 15px;
+		
+}
+.single-product-item:nth-child(2) {
+	height: 556px;
+	background-color: #f3eceb;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+    
+   /*---------------- Nav manu Start ---------------------- */ 
+    
+     /*-----------------=== Smart Manu End ===-----------------------*/ 
+    
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+	.big-manu li {
+	font-size: 26px;
+	width: 30%;
+	
+}
+.big-manu li a {
+	padding: 54px 110px 39px 40px;
+}
+.single-product-item {
+	width: 31.333333%;
+	
+}
+.single-product-item:nth-child(2){
+		width: 64.6666%;
+	}
+	.single-product-item:nth-child(4),.single-product-item:nth-child(9){
+		width: 64.6666%;
+	}
+	.promo-bg {
+	padding: 20px 20px 0;
+}
+.fotter-area, .fotter-area .text-right {
+	text-align: center;
+}
+	.fotter-manu li {
+	padding: 0px 14px;
+}
+	
+}
+       
+ /*-----------------=== Smart Manu End ===-----------------------*/   
+      
+
+/*-----------------=== smartphones (portait and landscape)===-----------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+	.header-right {
+	display: none;
+}
+	.header-top-area a {
+	padding: 12px;
+}
+	.header-left li {
+	display: none;
+}
+	.homepage-slider-wrap, .homepage-slider-wrap div {
+	height: auto;
+}
+	.header-top-area {
+	background: #f3eeed;
+	position: relative;
+}
+.header-top-area a {
+	padding: 15px 5px;
+}
+	.slide-text-tablecell {
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	padding: 50px 0;
+}
+	.single-slide-item img {
+	left: 0;
+	margin-left: 0;
+	display: none !important;
+}
+	.big-manu li {
+	font-size: 40px;
+	float: none;
+	width: auto;
+}
+	.big-manu li:nth-child(2), .big-manu li:nth-child(3){
+		width: auto;
+	}
+	.big-manu li a{
+		padding: 50px;
+		text-align: center;
+	}
+	.single-product-item, .single-product-item:nth-child(2), .single-product-item:nth-child(3), .single-product-item:nth-child(4), .single-product-item:nth-child(9){
+	    width:100%;
+		float: none;
+}
+	.promo-content {
+	padding: 20px;
+}
+	.promo-bg {
+	padding-top: 10px;
+}
+	.promo-title h2 {
+	font-size: 25px;
+}
+	.promo-title span.year-text {
+	left: 36%;
+	font-size: 60px;
+}
+	.product-promotions .owl-dots {
+	    position: relative;
+		transform: rotate(0deg);
+}
+	.fotter-area, .fotter-area .text-right {
+	text-align: center;
+}
+	.fotter-manu li {
+	padding: 0px 14px;
+}
+	input[type="submit"] {
+	margin-top: 10px;
+}
+}
+      
+  /*-----------------=== Smart Manu Start ===-----------------------*/    
+     
+  /*-----------------=== Smart Manu End ===-----------------------*/  
+  .
+/*=================   iPad  landscape  =======================*/
+
